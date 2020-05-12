@@ -11,3 +11,13 @@
   flex-wrap:wrap;
   justify-content:space-between;
 }
+
+.slide-image img {
+  width:100%;
+  max-width:512px;
+  border-radius:2px;
+}
+
+.slide-notes {
+  max-width:496px;
+}

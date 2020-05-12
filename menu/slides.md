@@ -11,10 +11,10 @@ permalink: "/slides/"
 
       <div class="slide-image">
         <a href="{{ page.url | relative_url }}">
-            <img src="../assets/slides/slide-{{ page.slug }}.jpeg" style="width:100%;max-width:512px;border-radius:2px;">
+            <img src="../assets/slides/slide-{{ page.slug }}.jpeg">
         </a>
     </div>
-    <div class="slide-notes" style="max-width:496px;">
+    <div class="slide-notes">
         {{ page.content }}
     </div>
 
