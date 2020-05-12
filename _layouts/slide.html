@@ -3,11 +3,36 @@ layout: default
 ---
 
 <h1>
-  {{ page.title }}
+	{{ page.title }}
 </h1>
 
-<img src="{{ page.picture }}">
+<img src="../assets/slides/slide-{{ page.slug }}.jpeg" style="max-width:100%; border-radius:10px; max-height:85vh; margin: 0 auto; display:block;box-shadow: 0 0 10px 5px rgba(0,0,0,.35);">
 
 <div>
-{{ content }}
-</div>
+	<audio id="audioplayer" controls autoplay style="width:100%;">
+		<source src="../assets/slides/slide-{{ page.slug }}.m4a" type="audio/mp4">
+			<source src="horse.mp3" type="audio/mpeg">
+				Your browser does not support the audio tag.
+			</audio>
+
+			<script>
+				var audio = document.getElementById('audioplayer');
+
+				function redirectHandler() {
+					window.location.href = 'slide3.html';
+				}
+
+				function delayRedirect() {
+					window.setTimeout(redirectHandler,2000);
+
+				}
+
+				audio.addEventListener('ended', delayRedirect, false);
+			</script>
+
+		</div>
+
+
+		<div>
+			{{ content }}
+		</div>
