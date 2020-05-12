@@ -36,3 +36,4 @@ collections:
 
 # Permalinks
 permalink:           /:short_year/:month/:title
+baseurl: "http://raviudeshi.com/eo-training-jekyll/"
