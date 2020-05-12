@@ -4,18 +4,23 @@ title: "New EO Training Slides"
 permalink: "/slides/"
 ---
 
-<table style="width:100%;">
+<div>
   {% for page in site.slides %}
-  <tr>
-      <td>
-        <a href="{{ page.url | relative_url }}">
-            <img src="../assets/slides/slide-{{ page.slug }}.jpeg" style="border-radius:2px;">
-        </a>
-    </td>
-    <td>{{ page.content }}</td>
-</tr>
+
+  <div style="display:inline-block;">
+    <a href="{{ page.url | relative_url }}">
+        <img src="../assets/slides/slide-{{ page.slug }}.jpeg" style="max-width:512px;border-radius:2px;">
+    </a>
+</div>
+<div style="display:inline-block;margin-left:10px;">
+    {{ page.content }}
+</div>
+
+<hr/>
+
 {% endfor %}
-</table>
+</div>
+
 
 
 
