@@ -36,6 +36,6 @@ collections:
 
 # Permalinks
 permalink:           /:short_year/:month/:title
-baseurl: "http://raviudeshi.com/eo-training-jekyll/"
+baseurl: /eo-training-jekyll
 # Fix date/time generation
 timezone: America/New_York
