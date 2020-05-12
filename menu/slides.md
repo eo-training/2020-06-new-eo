@@ -7,11 +7,11 @@ permalink: "/slides/"
 <div>
 
   {% for page in site.slides %}
-  <div class="slide-summary" style="display:flex; justify-content:space-between;">
+  <div class="slide-summary" style="display:flex; flex-wrap:wrap; justify-content:space-between;">
 
       <div class="slide-image">
         <a href="{{ page.url | relative_url }}">
-            <img src="../assets/slides/slide-{{ page.slug }}.jpeg" style="max-width:512px;border-radius:2px;">
+            <img src="../assets/slides/slide-{{ page.slug }}.jpeg" style="width:100%;max-width:512px;border-radius:2px;">
         </a>
     </div>
     <div class="slide-notes" style="max-width:496px;">
