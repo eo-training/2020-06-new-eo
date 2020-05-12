@@ -9,7 +9,7 @@ permalink: "/slides/"
   <tr>
       <td>
         <a href="{{ page.url | relative_url }}">
-            <img src="../assets/slides/slide-{{ page.slug }}.jpeg" style="max-width:40%; border-radius:2px;">
+            <img src="../assets/slides/slide-{{ page.slug }}.jpeg" style="border-radius:2px;">
         </a>
     </td>
     <td>{{ page.content }}</td>
