@@ -2,6 +2,19 @@
 layout: default
 ---
 
+<div class="slides-nav">
+  <div>
+    {% if page.previous.url %}
+    <a href="{{page.previous.url}}">&laquo;&nbsp;{{page.previous.title}}</a>
+    {% endif %}
+  </div>
+  <div class="slides-nav-next">
+    {% if page.next.url %}
+    <a href="{{page.next.url}}">{{page.next.title}}&nbsp;&raquo;</a>
+    {% endif %}
+  </div>
+</div>
+
 <h1>
 	{{ page.title }}
 </h1>
