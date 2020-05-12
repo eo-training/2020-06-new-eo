@@ -1,0 +1,13 @@
+/* Added by Ravi */
+
+.slides-nav {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.slide-summary {
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:space-between;
+}

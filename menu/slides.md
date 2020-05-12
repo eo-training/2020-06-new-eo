@@ -7,7 +7,7 @@ permalink: "/slides/"
 <div>
 
   {% for page in site.slides %}
-  <div class="slide-summary" style="display:flex; flex-wrap:wrap; justify-content:space-between;">
+  <div class="slide-summary">
 
       <div class="slide-image">
         <a href="{{ page.url | relative_url }}">
