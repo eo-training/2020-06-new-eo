@@ -1,4 +1,6 @@
 <footer class="footer">
   <!-- {% include social-icons.html %} -->
   <div class="post-date"><a href="{{ site.github.url }}/menu/about.html">Fairfax County Office of Elections</a></div>
+  <div> <span title="{{ site.time | date: "%c" }}">Rev {{ site.time | date: "%a" | truncate:1,'' | upcase }}{{ site.time | date: "%I%M" }}</span></div>
+          <!-- Liquid time tags: https://docs.shopify.com/themes/liquid/filters/additional-filters -->
 </footer>
