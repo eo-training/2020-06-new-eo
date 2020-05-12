@@ -505,3 +505,13 @@ th, td {
 .fa-rss-square:hover {
 	color: #ff6600;
 }
+
+
+
+/* Added by Ravi */
+
+.slides-nav {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
