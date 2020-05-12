@@ -15,7 +15,7 @@ permalink: "/slides/"
     <td>{{ page.content }}</td>
 </tr>
 {% endfor %}
-</ul>
+</table>
 
 
 
