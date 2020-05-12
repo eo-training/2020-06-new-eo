@@ -16,7 +16,7 @@ paginate:            5
 # Build settings
 markdown:            kramdown
 highlighter:         rouge
-permalink:           none
+# permalink:           none
 plugins:             [jekyll-paginate, jekyll-sitemap, jekyll-feed, jekyll-seo-tag]
 
 # Customise atom feed settings (this is where Jekyll-Feed gets configuration information)
@@ -33,3 +33,6 @@ author:              'Ravi Udeshi'
 collections:
   slides:
     output: true
+
+# Permalinks
+permalink:           /:short_year/:month/:title
