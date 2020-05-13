@@ -1,26 +1,33 @@
 body {
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 18px;
-    color: #515151;
-    line-height: 1.75rem;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  color: #515151;
+  line-height: 1.75rem;
 }
 
 
 /* Slides */
 
 .slides-nav {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
 }
 
 /* Slide summary list */
 
 @media (min-width: 800px) {
-.slide-summary {
+  .slide-summary {
     display: flex;
     justify-content: space-between;
-}
+  }
+  .slide-summary .slide-image {
+    width: 50%;
+    margin-bottom: 0;
+  }
+  .slide .slide-notes {
+    width: 46%;
+  }
 }
 
 .slide-summary {
@@ -33,12 +40,14 @@ body {
 
 .slide-image img {
   width:100%;
-  max-width:512px;
-  border-radius:2px;
+  /* max-width:512px; */
+  /* max-width:100%; */
+  border-radius:5px;
+  border: 2px solid rgba(0,0,0,0.1);
 }
 
 .slide-notes {
-  max-width:496px;
+  /* max-width:496px; */
 }
 
 .slide-notes p {
