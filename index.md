@@ -3,6 +3,14 @@ layout: home
 title: Home
 ---
 
+<div class="homepage-intro">
+Welcome to the New Election Officer online training class!
+</div>
+
+<div class="homepage-button">
+Start training
+</div>
+
 Welcome! On this page, you will find the New Election Officer online training class.
 
 Please select how you would like to review the class materials:
