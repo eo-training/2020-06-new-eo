@@ -130,7 +130,9 @@ body {
 /* Slide thumbnails */
 
 .slide-thumbnail {
-  max-width:10%;
-  border-radius:2px;
-  max-height:20vh;
+  width: 6em;
+  height: 4.5em;
+  border-radius: 2px;
+  /* max-width: 10%; */
+  /* max-height:20vh; */
 }
