@@ -16,10 +16,11 @@ body {
 
 /* Slide summary list */
 
-@media (min-width: 800px)
+@media (min-width: 800px) {
 .slide-summary {
     display: flex;
     justify-content: space-between;
+}
 }
 
 .slide-summary {
