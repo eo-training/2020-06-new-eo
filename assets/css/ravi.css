@@ -25,7 +25,7 @@ body {
     width: 50%;
     margin-bottom: 0;
   }
-  .slide .slide-notes {
+  .slide-summary .slide-notes {
     width: 46%;
   }
 }
