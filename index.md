@@ -3,4 +3,6 @@ layout: home
 title: Home
 ---
 
-This is a test.
+* <a href="{{ site.github.url }}/slides/">Slides</a>
+* <a href="{{ site.github.url }}/slides-thumbnails/">Slides Thumbnails</a>
+* <a href="{{ site.github.url }}/slides-summary/">Slides Summary</a>
