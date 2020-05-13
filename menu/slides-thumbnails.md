@@ -10,7 +10,7 @@ permalink: "/slides-thumbnails/"
 
 <a href="{{ page.url | relative_url }}">
 
-  <img src="../assets/slides/slide-{{ page.slug }}.jpeg" style="max-width:10%; border-radius:2px; max-height:20vh;">
+  <img class="slide-thumbnail" src="../assets/slides/slide-{{ page.slug }}.jpeg">
 
 </a>
 

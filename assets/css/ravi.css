@@ -89,6 +89,8 @@ body {
   }
 }
 
+/* Slide summary */
+
 .slide-summary {
   /* display:flex; */
   /* flex-wrap:wrap; */
@@ -111,4 +113,12 @@ body {
 
 .slide-notes p {
   margin-block-start: 0;
+}
+
+/* Slide thumbnails */
+
+.slide-thumbnail {
+  max-width:10%;
+  border-radius:2px;
+  max-height:20vh;
 }
