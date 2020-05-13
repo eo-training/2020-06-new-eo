@@ -7,7 +7,7 @@ permalink: "/slides/"
 <ul>
   {% for page in site.slides %}
   <li>
-      <a href="{{ page.url | relative_url }}">Slide {{ page.title }}</a>
+      <a href="{{ page.url | relative_url }}">{{ page.slug }}. {{ page.title }}</a>
   </li>
   {% endfor %}
 </ul>
