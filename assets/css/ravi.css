@@ -1,9 +1,18 @@
+/* header */
+
 body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 18px;
   color: #515151;
   line-height: 1.75rem;
 }
+
+.ravi-header a {
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+}
+
 
 
 /* Slides */
