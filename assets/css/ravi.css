@@ -36,10 +36,11 @@ body {
 .ravi-menubar-menu ul li {
   list-style: none;
   display: inline;
+  margin-left: 1em;
 }
 
 .ravi-menubar-menu ul li:not(:first-child):before {
-  content: " \00b7 ";
+  /* content: " \00b7 "; */
 }
 
 /* Homepage */
