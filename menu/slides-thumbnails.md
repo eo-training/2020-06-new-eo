@@ -1,25 +1,15 @@
 ---
 layout: page
-title: "New EO Training - Slides Summary"
-permalink: "/slides-summary/"
+title: "New EO Training - Slides Thumbnails"
+permalink: "/slides-thumbnails/"
 ---
 
-<div>
+{% for page in site.slides %}
 
-  {% for page in site.slides %}
-  <div class="slide-summary">
+<a href="{{ page.url | relative_url }}">
 
-      <div class="slide-image">
-        <a href="{{ page.url | relative_url }}">
-            <img src="../assets/slides/slide-{{ page.slug }}.jpeg">
-        </a>
-    </div>
-    <div class="slide-notes">
-        {{ page.content }}
-    </div>
+  <img src="assets/slides/slide-{{ page.slug }}.jpeg" style="max-width:10%; border-radius:2px; max-height:20vh;">
 
-</div>
+</a>
 
 {% endfor %}
-
-</div>

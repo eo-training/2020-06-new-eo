@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "New EO Training Slides"
+title: "New EO Training - Table of Contents"
 permalink: "/slides/"
 ---
 
