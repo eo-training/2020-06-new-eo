@@ -14,6 +14,17 @@ body {
 }
 
 
+/* Homepage */
+
+.homepage-box {
+    background: linear-gradient(45deg, rgb(106, 120, 209), rgb(0, 164, 189));
+    max-width: 30em;
+    border-radius: 5px;
+    margin: 0 auto;
+    min-height: 10em;
+    box-shadow: 0 0 10px;
+    text-align: center;
+}
 
 /* Slides */
 
