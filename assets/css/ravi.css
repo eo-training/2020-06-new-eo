@@ -64,7 +64,7 @@ body {
   margin: 1em 0 0.5em;
 }
 
-.homepage-button {
+.homepage-button a {
   background-color: #00cab6;
   font-size: 1em;
   border-radius: 6px;
@@ -78,7 +78,7 @@ body {
   display: inline-block;
   padding: 1em 4em;
   margin-bottom: 2em;
-  color: white; !important
+  color: white !important;
   text-decoration: none;
 }
 
