@@ -1,5 +1,5 @@
 body {
-    font-family: system-ui,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 18px;
     color: #515151;
     line-height: 1.75rem;
@@ -38,4 +38,8 @@ body {
 
 .slide-notes {
   max-width:496px;
+}
+
+.slide-notes p {
+  margin-block-start: 0;
 }
