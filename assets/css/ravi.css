@@ -25,6 +25,10 @@ body {
   justify-content: space-between;
 }
 
+.ravi-menubar-menu a {
+  font-weight: 300;
+}
+
 .ravi-menubar-menu ul {
   margin: 0;
 }
