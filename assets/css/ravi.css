@@ -7,10 +7,22 @@ body {
   line-height: 1.75rem;
 }
 
+.ravi-header {
+ background: #222;
+ margin: -8px;
+ color: #eee;
+ margin-bottom:5px;
+}
+
 .ravi-header a {
   color: white;
   text-decoration: none;
   font-weight: 700;
+}
+
+.ravi-menubar {
+  display: flex;
+  justify-content: space-between;
 }
 
 
