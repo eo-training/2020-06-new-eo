@@ -14,10 +14,20 @@ body {
     margin-bottom: 10px;
 }
 
+/* Slide summary list */
+
+@media (min-width: 800px)
 .slide-summary {
-  display:flex;
-  flex-wrap:wrap;
-  justify-content:space-between;
+    display: flex;
+    justify-content: space-between;
+}
+
+.slide-summary {
+  /* display:flex; */
+  /* flex-wrap:wrap; */
+  /* justify-content:space-between; */
+  border-bottom: 1px solid #CCC;
+  padding: 2em 0;
 }
 
 .slide-image img {
