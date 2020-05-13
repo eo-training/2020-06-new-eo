@@ -44,6 +44,11 @@ body {
   transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
 
+.homepage-button a {
+  color: white;
+  text-decoration: none;
+}
+
 .homepage-box {
     background: linear-gradient(45deg, rgb(106, 120, 209), rgb(0, 164, 189));
     max-width: 30em;

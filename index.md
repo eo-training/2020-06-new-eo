@@ -8,7 +8,7 @@ Welcome to the New Election Officer online training class!
 </div>
 
 <div class="homepage-button">
-Start training
+<a href="{{ site.github.url }}/slides/001">Start training</a>
 </div>
 
 Welcome! On this page, you will find the New Election Officer online training class.
