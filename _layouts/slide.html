@@ -5,7 +5,7 @@ layout: default
 <div class="slides-nav">
 	<div>
 		{% if page.previous.url %}
-		<a href="{{page.previous.url | relative_url }}">&laquo;&nbsp;{{page.previous.title}}</a>
+		<a href="{{page.previous.url | relative_url }}">&laquo;&nbsp;{{page.previous.slug}}</a>
 		{% endif %}
 	</div>
 	<div>
@@ -13,7 +13,7 @@ layout: default
 	</div>
 	<div class="slides-nav-next">
 		{% if page.next.url %}
-		<a href="{{page.next.url | relative_url }}">{{page.next.title}}&nbsp;&raquo;</a>
+		<a href="{{page.next.url | relative_url }}">{{page.next.slug}}&nbsp;&raquo;</a>
 		{% endif %}
 	</div>
 </div>
