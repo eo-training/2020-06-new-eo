@@ -13,14 +13,21 @@ Welcome to the New Election Officer online training class!
 <a href="{{ site.github.url }}/slides/001">Start training</a>
 </div>
 
+NOTE: For the best experience, you should visit this site on a desktop or laptop computer and browse using Google Chrome, Microsoft Edge, or Internet Explorer.
+
+---
+
+
 Welcome! On this page, you will find the New Election Officer online training class.
 
-Please select how you would like to review the class materials:
-* <a href="{{ site.github.url }}/slides/">Slides</a>
+Additional links:
+* <a href="{{ site.github.url }}/slides/">Table of Contents</a>
 * <a href="{{ site.github.url }}/slides-thumbnails/">Slides Thumbnails</a>
 * <a href="{{ site.github.url }}/slides-summary/">Slides Summary</a>
 
 After reviewing the slides, you must take a quiz in the Election Officer Portal to receive credit and be eligible to serve as an election officer.
+
+**Questions?** Call 703-324-4735 or email ElectionOfficerTraining@fairfaxcounty.gov. We are here to help!
 
 <div class="homepage-box">
     Test
