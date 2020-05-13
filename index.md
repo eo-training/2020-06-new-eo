@@ -9,8 +9,8 @@ title: Home
 Welcome to the New Election Officer online training class!
 </div>
 
-<div class="homepage-button">
-<a href="{{ site.github.url }}/slides/001">Start training</a>
+<div>
+<a class="homepage-button" href="{{ site.github.url }}/slides/001">Start training</a>
 </div>
 
 **Questions?** Call 703-324-4735 or email ElectionOfficerTraining@fairfaxcounty.gov. We are here to help!
