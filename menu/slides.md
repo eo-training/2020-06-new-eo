@@ -19,7 +19,6 @@ permalink: "/slides/"
     </div>
 
 </div>
-<hr/>
 
 {% endfor %}
 
