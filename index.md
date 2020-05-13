@@ -3,6 +3,8 @@ layout: home
 title: Home
 ---
 
+<img class="hero-image" src="{{ site.github.url }}/assets/img/slide-thumbnails.png">
+
 <div class="homepage-intro">
 Welcome to the New Election Officer online training class!
 </div>
