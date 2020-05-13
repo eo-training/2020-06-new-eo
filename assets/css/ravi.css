@@ -78,15 +78,12 @@ body {
   display: inline-block;
   padding: 1em 4em;
   margin-bottom: 2em;
+  color: white; !important
+  text-decoration: none;
 }
 
 .homepage-button:hover {
   transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
-}
-
-.homepage-button a {
-  color: white;
-  text-decoration: none;
 }
 
 .homepage-box {
