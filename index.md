@@ -17,10 +17,11 @@ Welcome to the New Election Officer online training class!
 
 ---
 
-
 Welcome! It will take approximately **90 minutes** to review the training slides and complete the online quiz. You can pause anytime.
 
 Note that audio narration plays automatically for each slide. At the end of each narration, you will advance to the next slide automatically. (If you pause the audio, the slide will not advance.)
+
+---
 
 Links:
 * <a href="{{ site.github.url }}/slides/">Table of Contents</a>
