@@ -36,6 +36,6 @@ collections:
 
 # Permalinks
 permalink:           /:short_year/:month/:title
-baseurl: /eo-training-jekyll
+baseurl: /new-eo
 # Fix date/time generation
 timezone: America/New_York
