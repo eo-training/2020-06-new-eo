@@ -60,6 +60,7 @@ body {
   .hero-image {
     float:right;
     max-width: 50%;
+    margin-left: 1em;
   }
 }
 
