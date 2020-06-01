@@ -39,3 +39,5 @@ permalink:           /:short_year/:month/:title
 baseurl: /new-eo
 # Fix date/time generation
 timezone: America/New_York
+
+### Current domain: eo-training.github.io
