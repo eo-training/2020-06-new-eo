@@ -20,7 +20,7 @@ highlighter:         rouge
 plugins:             [jekyll-paginate, jekyll-sitemap, jekyll-feed, jekyll-seo-tag]
 
 # Customise atom feed settings (this is where Jekyll-Feed gets configuration information)
-title:		           'EO Training'
+title:		           'New EO Training'
 description:	       ''
 author:              'Office of Elections'
 
